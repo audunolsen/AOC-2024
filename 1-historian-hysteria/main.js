@@ -14,8 +14,8 @@ for (const line of lines) {
   rightNumbers.push(rightNumber)
 }
 
-leftNumbers.sort()
-rightNumbers.sort()
+leftNumbers = leftNumbers.sort()
+rightNumbers = rightNumbers.sort()
 
 let totalDifference = 0
 let similarityScore = 0
